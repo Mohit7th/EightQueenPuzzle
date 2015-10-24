@@ -247,10 +247,10 @@ public class MainGUI extends Application implements EventHandler<ActionEvent> {
 		helpHeadLbl.setText("How To Play");
 		
 		Label helpBodyLbl = new Label();
-		helpBodyLbl.setText("Rules\n\n1: Place 8 queens on the chess board\n2: All queens must be arranged in a order that no 2 queens can attack each other"
-				+ "\n3: Queen can attack in any direction horizontally, vertically and diagnolly \n4: On Mouse click, one queen will be placed on the board"
-				+ "\n5: Clicking on the same queen will remove queen from chess board\n6: All 8 queens must be placed before clicking on \'check\' Button\n"
-				+ "6: There are 92 solution to this puzzle\n7: Below image is one of the solution\n\n");
+		helpBodyLbl.setText("Rules\n\n1: Place 8 queens on the chess board.\n2: All queens must be arranged in a order, that no 2 queens can attack each other."
+				+ "\n3: Queen can attack in any direction horizontally, vertically and diagonally. \n4: On Mouse click, one queen will be placed on the board."
+				+ "\n5: Clicking on the same queen will remove queen from chess board.\n6: All 8 queens must be placed before clicking on \'check\' Button.\n"
+				+ "6: There are 92 solution to this puzzle.\n7: Image below is one of the solution.\n\n");
 		
 		
 		//vbox to wrap two helpLabels 
